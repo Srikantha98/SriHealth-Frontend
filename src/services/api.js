@@ -3,11 +3,9 @@ import axios from "axios";
 // -----------------------------
 // Create Axios instance
 // -----------------------------
-const BASE_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
-
 const API = axios.create({
-  baseURL: BASE_URL,
-  timeout: 10000,
+  baseURL: "https://srihealth-backend.onrender.com/", // FastAPI backend
+  timeout: 10000, // 10s timeout
 });
 
 // -----------------------------
