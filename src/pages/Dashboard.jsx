@@ -47,7 +47,7 @@ export default function Dashboard() {
           </h2>
           <p className="text-slate-600 mt-2">
             Upload an MRI image to predict the stage of Alzheimer’s disease
-            using the trained GAN-augmented deep learning model.
+            using the trained ACGAN-augmented deep learning model.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export default function Dashboard() {
 
       {/* Footer */}
       <footer className="text-center py-6 text-slate-500 text-sm">
-        Secure Medical Decision Support System • Srikantha L M.Tech CSE • UVCE • Project for Academic and Research Purposes Only
+        Secure Medical Decision Support System • Srikantha L M.Tech CSE • UVCE 
       </footer>
     </div>
   );
