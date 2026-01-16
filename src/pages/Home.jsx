@@ -15,7 +15,7 @@ export default function Home() {
               <span className="text-slate-600">Alzheimer’s Disease Detection</span>
             </h2>
             <p className="mt-6 text-lg text-slate-600">
-              An intelligent medical decision‑support system that classifies Alzheimer’s disease stages from MRI images using GAN‑based data augmentation and attention‑driven deep learning.
+              An intelligent medical decision‑support system that classifies Alzheimer’s disease stages from MRI images using ACGAN‑based data augmentation and attention‑driven deep learning.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
