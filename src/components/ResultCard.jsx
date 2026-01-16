@@ -46,8 +46,8 @@ export default function ResultCard({ result }) {
       {/* Disclaimer */}
       <div className="text-xs text-slate-500 leading-relaxed">
         <p>
-          *The prediction is generated using a GAN-augmented deep learning
-          framework and is intended for academic and research purposes only.
+          *The prediction is generated using a ACGAN-augmented deep learning
+          framework.
         </p>
       </div>
     </div>
