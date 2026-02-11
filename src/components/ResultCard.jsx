@@ -32,7 +32,7 @@ export default function ResultCard({ result }) {
           <span className="font-medium">Alzheimer’s Stage:</span>{" "}
           <span className="font-semibold">{stage}</span>
         </p>
-
+/*
         {confidence !== null && (
           <p className="text-slate-700">
             <span className="font-medium">Confidence Score:</span>{" "}
@@ -40,7 +40,7 @@ export default function ResultCard({ result }) {
               {confidence.toFixed(1)}%
             </span>
           </p> 
-        )}
+        )} */
       </div>
 
       {/* Disclaimer */}
