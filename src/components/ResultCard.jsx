@@ -39,8 +39,8 @@ export default function ResultCard({ result }) {
             <span className={`font-semibold ${confidenceColor}`}> 
                {confidence.toFixed(1)}% 
             </span>
-          </p> */}
-        )} 
+          </p> 
+        )} */}
       </div>
 
       {/* Disclaimer */}
